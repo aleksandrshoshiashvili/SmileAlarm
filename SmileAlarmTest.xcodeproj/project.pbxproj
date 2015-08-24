@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFB23ED1B8BAB7000A5B0D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB23EC1B8BAB7000A5B0D2 /* main.m */; };
+		1FFB23F01B8BAB7000A5B0D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB23EF1B8BAB7000A5B0D2 /* AppDelegate.m */; };
+		1FFB23F31B8BAB7000A5B0D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB23F21B8BAB7000A5B0D2 /* ViewController.m */; };
+		1FFB23F61B8BAB7000A5B0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB23F41B8BAB7000A5B0D2 /* Main.storyboard */; };
+		1FFB23F81B8BAB7000A5B0D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB23F71B8BAB7000A5B0D2 /* Images.xcassets */; };
+		1FFB23FB1B8BAB7000A5B0D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB23F91B8BAB7000A5B0D2 /* LaunchScreen.xib */; };
+		1FFB24071B8BAB7000A5B0D2 /* SmileAlarmTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB24061B8BAB7000A5B0D2 /* SmileAlarmTestTests.m */; };
+		1FFB24171B8BAF3B00A5B0D2 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB24161B8BAF3B00A5B0D2 /* PulsingHaloLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FFB24011B8BAB7000A5B0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FFB23DF1B8BAB7000A5B0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFB23E61B8BAB7000A5B0D2;
+			remoteInfo = SmileAlarmTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFB23E71B8BAB7000A5B0D2 /* SmileAlarmTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileAlarmTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFB23EB1B8BAB7000A5B0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFB23EC1B8BAB7000A5B0D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FFB23EE1B8BAB7000A5B0D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FFB23EF1B8BAB7000A5B0D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FFB23F11B8BAB7000A5B0D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FFB23F21B8BAB7000A5B0D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FFB23F51B8BAB7000A5B0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FFB23F71B8BAB7000A5B0D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FFB23FA1B8BAB7000A5B0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FFB24001B8BAB7000A5B0D2 /* SmileAlarmTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileAlarmTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFB24051B8BAB7000A5B0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFB24061B8BAB7000A5B0D2 /* SmileAlarmTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileAlarmTestTests.m; sourceTree = "<group>"; };
+		1FFB24151B8BAF3B00A5B0D2 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		1FFB24161B8BAF3B00A5B0D2 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFB23E41B8BAB7000A5B0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFB23FD1B8BAB7000A5B0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFB23DE1B8BAB7000A5B0D2 = {
+			isa = PBXGroup;
+			children = (
+				1FFB23E91B8BAB7000A5B0D2 /* SmileAlarmTest */,
+				1FFB24031B8BAB7000A5B0D2 /* SmileAlarmTestTests */,
+				1FFB23E81B8BAB7000A5B0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFB23E81B8BAB7000A5B0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB23E71B8BAB7000A5B0D2 /* SmileAlarmTest.app */,
+				1FFB24001B8BAB7000A5B0D2 /* SmileAlarmTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFB23E91B8BAB7000A5B0D2 /* SmileAlarmTest */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB23EE1B8BAB7000A5B0D2 /* AppDelegate.h */,
+				1FFB23EF1B8BAB7000A5B0D2 /* AppDelegate.m */,
+				1FFB23F11B8BAB7000A5B0D2 /* ViewController.h */,
+				1FFB23F21B8BAB7000A5B0D2 /* ViewController.m */,
+				1FFB24131B8BAF3B00A5B0D2 /* Frameworks */,
+				1FFB23F41B8BAB7000A5B0D2 /* Main.storyboard */,
+				1FFB23F71B8BAB7000A5B0D2 /* Images.xcassets */,
+				1FFB23F91B8BAB7000A5B0D2 /* LaunchScreen.xib */,
+				1FFB23EA1B8BAB7000A5B0D2 /* Supporting Files */,
+			);
+			path = SmileAlarmTest;
+			sourceTree = "<group>";
+		};
+		1FFB23EA1B8BAB7000A5B0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB23EB1B8BAB7000A5B0D2 /* Info.plist */,
+				1FFB23EC1B8BAB7000A5B0D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FFB24031B8BAB7000A5B0D2 /* SmileAlarmTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB24061B8BAB7000A5B0D2 /* SmileAlarmTestTests.m */,
+				1FFB24041B8BAB7000A5B0D2 /* Supporting Files */,
+			);
+			path = SmileAlarmTestTests;
+			sourceTree = "<group>";
+		};
+		1FFB24041B8BAB7000A5B0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB24051B8BAB7000A5B0D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FFB24131B8BAF3B00A5B0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB24141B8BAF3B00A5B0D2 /* PulsingHalo */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FFB24141B8BAF3B00A5B0D2 /* PulsingHalo */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB24151B8BAF3B00A5B0D2 /* PulsingHaloLayer.h */,
+				1FFB24161B8BAF3B00A5B0D2 /* PulsingHaloLayer.m */,
+			);
+			path = PulsingHalo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFB23E61B8BAB7000A5B0D2 /* SmileAlarmTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFB240A1B8BAB7000A5B0D2 /* Build configuration list for PBXNativeTarget "SmileAlarmTest" */;
+			buildPhases = (
+				1FFB23E31B8BAB7000A5B0D2 /* Sources */,
+				1FFB23E41B8BAB7000A5B0D2 /* Frameworks */,
+				1FFB23E51B8BAB7000A5B0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileAlarmTest;
+			productName = SmileAlarmTest;
+			productReference = 1FFB23E71B8BAB7000A5B0D2 /* SmileAlarmTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FFB23FF1B8BAB7000A5B0D2 /* SmileAlarmTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFB240D1B8BAB7000A5B0D2 /* Build configuration list for PBXNativeTarget "SmileAlarmTestTests" */;
+			buildPhases = (
+				1FFB23FC1B8BAB7000A5B0D2 /* Sources */,
+				1FFB23FD1B8BAB7000A5B0D2 /* Frameworks */,
+				1FFB23FE1B8BAB7000A5B0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FFB24021B8BAB7000A5B0D2 /* PBXTargetDependency */,
+			);
+			name = SmileAlarmTestTests;
+			productName = SmileAlarmTestTests;
+			productReference = 1FFB24001B8BAB7000A5B0D2 /* SmileAlarmTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFB23DF1B8BAB7000A5B0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Александр";
+				TargetAttributes = {
+					1FFB23E61B8BAB7000A5B0D2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 92465BS428;
+					};
+					1FFB23FF1B8BAB7000A5B0D2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1FFB23E61B8BAB7000A5B0D2;
+					};
+				};
+			};
+			buildConfigurationList = 1FFB23E21B8BAB7000A5B0D2 /* Build configuration list for PBXProject "SmileAlarmTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FFB23DE1B8BAB7000A5B0D2;
+			productRefGroup = 1FFB23E81B8BAB7000A5B0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFB23E61B8BAB7000A5B0D2 /* SmileAlarmTest */,
+				1FFB23FF1B8BAB7000A5B0D2 /* SmileAlarmTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFB23E51B8BAB7000A5B0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFB23F61B8BAB7000A5B0D2 /* Main.storyboard in Resources */,
+				1FFB23FB1B8BAB7000A5B0D2 /* LaunchScreen.xib in Resources */,
+				1FFB23F81B8BAB7000A5B0D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFB23FE1B8BAB7000A5B0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFB23E31B8BAB7000A5B0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFB24171B8BAF3B00A5B0D2 /* PulsingHaloLayer.m in Sources */,
+				1FFB23F31B8BAB7000A5B0D2 /* ViewController.m in Sources */,
+				1FFB23F01B8BAB7000A5B0D2 /* AppDelegate.m in Sources */,
+				1FFB23ED1B8BAB7000A5B0D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFB23FC1B8BAB7000A5B0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFB24071B8BAB7000A5B0D2 /* SmileAlarmTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FFB24021B8BAB7000A5B0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFB23E61B8BAB7000A5B0D2 /* SmileAlarmTest */;
+			targetProxy = 1FFB24011B8BAB7000A5B0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FFB23F41B8BAB7000A5B0D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFB23F51B8BAB7000A5B0D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FFB23F91B8BAB7000A5B0D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFB23FA1B8BAB7000A5B0D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FFB24081B8BAB7000A5B0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FFB24091B8BAB7000A5B0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFB240B1B8BAB7000A5B0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmileAlarmTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FFB240C1B8BAB7000A5B0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmileAlarmTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FFB240E1B8BAB7000A5B0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileAlarmTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileAlarmTest.app/SmileAlarmTest";
+			};
+			name = Debug;
+		};
+		1FFB240F1B8BAB7000A5B0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileAlarmTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileAlarmTest.app/SmileAlarmTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFB23E21B8BAB7000A5B0D2 /* Build configuration list for PBXProject "SmileAlarmTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFB24081B8BAB7000A5B0D2 /* Debug */,
+				1FFB24091B8BAB7000A5B0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFB240A1B8BAB7000A5B0D2 /* Build configuration list for PBXNativeTarget "SmileAlarmTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFB240B1B8BAB7000A5B0D2 /* Debug */,
+				1FFB240C1B8BAB7000A5B0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFB240D1B8BAB7000A5B0D2 /* Build configuration list for PBXNativeTarget "SmileAlarmTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFB240E1B8BAB7000A5B0D2 /* Debug */,
+				1FFB240F1B8BAB7000A5B0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFB23DF1B8BAB7000A5B0D2 /* Project object */;
+}
